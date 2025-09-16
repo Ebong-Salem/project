@@ -789,6 +789,7 @@ footer{
 
     margin-top: 20px;
     display: flex;flex-direction: column;
+
     gap: 20px;
 
 }
@@ -955,6 +956,14 @@ footer p a:hover{
         text-align: center;
       }
 
+
+      
+.footer-content .second{
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
       
 
 .footer-content .second .subscribe{
@@ -962,6 +971,7 @@ footer p a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;gap: 10px;
+    margin-top: 0;
 }
     
 
@@ -969,5 +979,9 @@ footer p a:hover{
 .footer-content .second .subscribe button{
     padding: 10px;
   
+}
+
+.footer-content .second h2{
+    margin-bottom: 0;
 }
 }
