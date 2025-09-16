@@ -751,7 +751,7 @@ footer{
     width: 100%;
     height: auto;
     background:rgba(30, 30, 30, 0.997);
-    padding: 100px 70px;
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -766,10 +766,10 @@ footer{
     gap: 40px;
 }
 
-
+/* 
 .footer-content .first {
-    width: 50%;
-}
+   
+} */
 
 
 
@@ -786,7 +786,7 @@ footer{
 
 
 .footer-content .second{
-    width: 50%;
+
     margin-top: 20px;
     display: flex;flex-direction: column;
     gap: 20px;
