@@ -410,14 +410,22 @@ header .header-content  .icon-list i:hover{
 
 .services-description{
     margin-top: 50px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill,500px);
     gap: 70px;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   
 }
 
+.services-boxes{
+    width: 500px;
+}
 .services-description i{
     font-size: clamp(40px,6vw,50px);
     color: #56ae62;
