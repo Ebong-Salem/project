@@ -374,6 +374,8 @@ header .header-content  .icon-list i:hover{
 
 }
 
+
+
 .services-content .services-head{
        display: flex;
     text-align: center;
@@ -924,6 +926,14 @@ footer p a:hover{
 
   
 
+    .services{
+        padding: 20px;
+    }
+
+    .services-description .boite{
+       text-align: center;
+    }
+
       .footer-content{
         flex-wrap: wrap;
         justify-content: space-between;
@@ -942,6 +952,14 @@ footer p a:hover{
 .footer-content .second .subscribe{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;gap: 10px;
 }
     
+
+
+.footer-content .second .subscribe button{
+    padding: 10px;
+  
+}
 }
