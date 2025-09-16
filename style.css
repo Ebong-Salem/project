@@ -936,5 +936,12 @@ footer p a:hover{
         width: 100%;
         text-align: center;
       }
+
+      
+
+.footer-content .second .subscribe{
+    display: flex;
+    flex-direction: column;
+}
     
 }
